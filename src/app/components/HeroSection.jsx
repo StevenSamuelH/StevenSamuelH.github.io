@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
+import LinkedinIcon from "../../../public/linkedin-icon.svg";
 import { motion } from "framer-motion";
 import Link from "next/link";
 
