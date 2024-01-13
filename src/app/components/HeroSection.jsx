@@ -22,13 +22,11 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Steven Samuel Hutapea",
                 1000,
-                "Web Developer",
+                "Analyst",
                 1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
+                "Developer",
                 1000,
               ]}
               wrapper="span"
@@ -48,7 +46,7 @@ const HeroSection = () => {
               Hire Me
             </Link>
             <Link
-              href="/"
+              href=""
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
