@@ -13,51 +13,7 @@ const projectsData = [
     tag: ["All", "Application"],
     previewUrl: "https://www.canva.com/design/DAFjcM-8wsE/view?utm_content=DAFjcM-8wsE&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
   },
-  {
-    id: 2,
-    title: "PBP Project Details",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Data"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "E-commerce Application",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Data"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 4,
-    title: "Food Ordering Application",
-    description: "Project 4 description",
-    image: "/images/projects/4.png",
-    tag: ["All", "Data"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 5,
-    title: "React Firebase Template",
-    description: "Authentication and CRUD operations",
-    image: "/images/projects/5.png",
-    tag: ["All", "Data"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 6,
-    title: "Full-stack Roadmap",
-    description: "Project 5 description",
-    image: "/images/projects/6.png",
-    tag: ["All", "Data"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
+
 ];
 
 const ProjectsSection = () => {
