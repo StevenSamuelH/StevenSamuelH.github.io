@@ -7,19 +7,18 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    title: "PBP Project Details",
+    description: "Pemrograman Berbasis Platform (PBP) = Django, Flutter.PBP is the first project-based course that I ever got. Platform Based Programming course gave us a task of creating a planner a called MOTOGPMERCH. Basically it uses Django as the framework and utilized using API to send data to the flutter app.",
+    image: "/images/projects/pbp.png",
+    tag: ["All", "Application"],
+    previewUrl: "https://www.canva.com/design/DAFjcM-8wsE/view?utm_content=DAFjcM-8wsE&utm_campaign=designshare&utm_medium=embeds&utm_source=link",
   },
   {
     id: 2,
-    title: "Potography Portfolio Website",
+    title: "PBP Project Details",
     description: "Project 2 description",
     image: "/images/projects/2.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Data"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -28,7 +27,7 @@ const projectsData = [
     title: "E-commerce Application",
     description: "Project 3 description",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Data"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -37,7 +36,7 @@ const projectsData = [
     title: "Food Ordering Application",
     description: "Project 4 description",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "Data"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -46,7 +45,7 @@ const projectsData = [
     title: "React Firebase Template",
     description: "Authentication and CRUD operations",
     image: "/images/projects/5.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Data"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -55,7 +54,7 @@ const projectsData = [
     title: "Full-stack Roadmap",
     description: "Project 5 description",
     image: "/images/projects/6.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Data"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -93,12 +92,12 @@ const ProjectsSection = () => {
         <ProjectTag
           onClick={handleTagChange}
           name="Web"
-          isSelected={tag === "Web"}
+          isSelected={tag === "Data"}
         />
         <ProjectTag
           onClick={handleTagChange}
           name="Mobile"
-          isSelected={tag === "Mobile"}
+          isSelected={tag === "Application"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
