@@ -105,12 +105,12 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
+          name="Data"
           isSelected={tag === "Data"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
+          name="Application"
           isSelected={tag === "Application"}
         />
       </div>

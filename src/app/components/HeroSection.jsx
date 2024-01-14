@@ -40,7 +40,7 @@ const HeroSection = () => {
             voluptuous.
           </p>
           <div>
-          <Link href="linkedin.com">
+          <Link href="https://www.linkedin.com/in/steven-samuel-hutapea-12b9b91b7/">
             <Image src={LinkedinIcon} alt="Linkedin Icon" />
           </Link>
             <Link
