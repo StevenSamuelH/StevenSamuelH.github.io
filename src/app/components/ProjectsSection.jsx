@@ -42,7 +42,7 @@ const projectsData = [
     title: "Proyek Akhir KASDD Football  player",
     description: "Analyzing football player dataset using python",
     image: "/images/projects/Canva.png",
-    tag: ["All", "Application"],
+    tag: ["All", "Data"],
     previewUrl: "https://www.canva.com/design/DAFhG_21GwI/view",
   },
   {
