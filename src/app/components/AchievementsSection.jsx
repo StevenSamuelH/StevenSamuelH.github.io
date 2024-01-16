@@ -27,9 +27,8 @@ const AchievementsSection = () => {
               key={index}
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
-           
-              <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
-              <p className="text-[#ADB7BE] text-base">{achievement.value}</p>
+              <p className="text-white text-center text-lg font-semibold">{achievement.metric}</p>
+              <p className="text-white text-center text-lg font-semibold">{achievement.value}</p>
             </div>
           );
         })}
