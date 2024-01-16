@@ -62,15 +62,21 @@ const projectsData = [
     previewUrl: "https://public.tableau.com/views/Jakarta_16879647309750/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link",
   },
   {
-    id: 7,
+    id: 8,
     title: "Telkom Internship Dashboard Project Details",
-    description: " Analisis Data Magang MSIB Kampus Merdeka dengan Tableau",
+    description: " Visualisasi Data Pengadaan dengan Tableau",
     image: "/images/projects/pbp.png",
     tag: ["All", "Data"],
-    previewUrl: "https://www.canva.com/design/DAFjbiDsuQQ/view?embed&autoplay=1&speed=0.5",
+    previewUrl: "https://www.canva.com/design/DAF6CZv_wFw/view",
   },
-
-
+  {
+    id: 9,
+    title: "Data Web Scarping dan Standarization",
+    description: "Data Scraping and Standarization using Python Library",
+    image: "/images/projects/pbp.png",
+    tag: ["All", "Data"],
+    previewUrl: "https://www.canva.com/design/DAF6D1bJBtc/view",
+  },
 
 ];
 

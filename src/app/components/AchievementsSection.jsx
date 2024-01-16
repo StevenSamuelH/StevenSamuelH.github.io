@@ -11,22 +11,9 @@ const AnimatedNumbers = dynamic(
 
 const achievementsList = [
   {
-    metric: "Projects",
-    value: "100",
+    metric: "The goal is to turn data into information, and information into insight",
+    value: " - Carly Fiorina",
     postfix: "+",
-  },
-  {
-    prefix: "~",
-    metric: "Users",
-    value: "100,000",
-  },
-  {
-    metric: "Awards",
-    value: "7",
-  },
-  {
-    metric: "Years",
-    value: "5",
   },
 ];
 
