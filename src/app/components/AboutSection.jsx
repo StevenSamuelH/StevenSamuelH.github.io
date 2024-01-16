@@ -123,11 +123,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-          A proficient final year Information Systems student at Universitas Indonesia, I have fervor for business analytics 
-          and data analysis. I demonstrate the ability to excel independently and collaboratively within a team. 
-          My dedication is to leverage my skills not only in full-stack develoment and advanced analytics but also in product management to drive business success. 
-          With a sharp eye for detail and a strong analytical mindset, I am committed to crafting top-notch web and mobile applications.
-           Additionally, I harness data-driven findings to enhance user satisfaction and streamline business operations, contributing effectively to product management.	
+          A proficient final year Information Systems student at Universitas Indonesia, 
+          I am a data enthusiast, an analytical mind, and a developer. I thrive on providing valuable insights from data.
+          My passion lies in unraveling the stories hidden within data sets. I excel in both independent and collaborative environments, 
+          possessing skills in full-stack development and advanced analytics. With a keen eye for detail and a robust analytical mindset,
+          I am dedicated to creating exceptional web and mobile applications. My commitment extends to utilizing data-driven discoveries 
+          to enhance user satisfaction and optimize business operations, making impactful contributions to data analysis and application development.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
