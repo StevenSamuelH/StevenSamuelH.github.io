@@ -13,7 +13,7 @@ const achievementsList = [
   {
     metric: "The goal is to turn data into information, and information into insight",
     value: " - Carly Fiorina",
-    postfix: "+",
+   
   },
 ];
 
@@ -27,24 +27,9 @@ const AchievementsSection = () => {
               key={index}
               className="flex flex-col items-center justify-center mx-4 my-4 sm:my-0"
             >
-              <h2 className="text-white text-4xl font-bold flex flex-row">
-                {achievement.prefix}
-                <AnimatedNumbers
-                  includeComma
-                  animateToNumber={parseInt(achievement.value)}
-                  locale="en-US"
-                  className="text-white text-4xl font-bold"
-                  configs={(_, index) => {
-                    return {
-                      mass: 1,
-                      friction: 100,
-                      tensions: 140 * (index + 1),
-                    };
-                  }}
-                />
-                {achievement.postfix}
-              </h2>
+           
               <p className="text-[#ADB7BE] text-base">{achievement.metric}</p>
+              <p className="text-[#ADB7BE] text-base">{achievement.value}</p>
             </div>
           );
         })}
