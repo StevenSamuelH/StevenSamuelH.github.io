@@ -65,11 +65,6 @@ const TAB_DATA = [
           </a>
         </li>
         <li>
-          <a href="https://www.datacamp.com/statement-of-accomplishment/course/ef9367ed1a05669aed1e0b154c05a714e8fd6bf4" target="_blank" rel="noopener noreferrer">
-            DataCamp - Intermediate SQL
-          </a>
-        </li>
-        <li>
           <a href="https://www.datacamp.com/statement-of-accomplishment/course/4614a8f1957b2aac2f743f34f06c1268f07f5be5" target="_blank" rel="noopener noreferrer">
             DataCamp - Introduction to R
           </a>
