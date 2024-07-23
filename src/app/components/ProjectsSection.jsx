@@ -39,6 +39,14 @@ const projectsData = [
   },
   {
     id: 5,
+    title: "IBM SkillsBuild for AI & Cybersecurity",
+    description: "BizTrack",
+    image: "/images/projects/dashboard.png",
+    tag: ["All", "Application"],
+    previewUrl: "https://umkmai.streamlit.app/",
+  },
+  {
+    id: 5,
     title: "Proyek Akhir KASDD Football  player",
     description: "Analyzing football player dataset using python",
     image: "/images/projects/Canva.png",
